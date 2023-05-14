@@ -1,0 +1,56 @@
+---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 5/14/23 4:24 PM
+Description: Exception in server tick loop
+
+java.lang.ExceptionInInitializerError
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_5_MobBehaviour_entityJoinsWorld_EntityJoinWorldEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraft.world.WorldServer.loadEntities(WorldServer.java:1065)
+	at net.minecraft.world.chunk.Chunk.onLoad(Chunk.java:860)
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.syncCallback(ChunkIOProvider.java:109)
+	at net.minecraftforge.common.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:94)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:118)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:89)
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:135)
+	at net.minecraft.server.MinecraftServer.initialWorldChunkLoad(MinecraftServer.java:344)
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:142)
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:156)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: Major Error! Settings has errored entityList entry. Please check and rectify.
+	at dejt.kaku.flasher.mobbehaviour.MobBehaviour.<clinit>(MobBehaviour.java:143)
+	... 15 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_202, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 784296240 bytes (747 MB) / 1265106944 bytes (1206 MB) up to 3776970752 bytes (3602 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 16, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP 9.42 Powered by Forge 14.23.5.2859 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID               | Version      | Source                                                             | Signature |
+	|:------ |:---------------- |:------------ |:------------------------------------------------------------------ |:--------- |
+	| LCHIJA | minecraft        | 1.12.2       | minecraft.jar                                                      | None      |
+	| LCHIJA | mcp              | 9.42         | minecraft.jar                                                      | None      |
+	| LCHIJA | FML              | 8.0.99.99    | forge-1.12.2-14.23.5.2859_mapped_snapshot_20171003-1.12-recomp.jar | None      |
+	| LCHIJA | forge            | 14.23.5.2859 | forge-1.12.2-14.23.5.2859_mapped_snapshot_20171003-1.12-recomp.jar | None      |
+	| LCHIJA | lightbulbflasher | 1.0          | main                                                               | None      |
+
+	Loaded coremods (and transformers): 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 8; []
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

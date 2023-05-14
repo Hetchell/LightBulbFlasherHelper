@@ -1,0 +1,23 @@
+{
+  "allowChasingWithoutHit": false,
+  "entityList_affected": [
+    "Skeleton",
+    "Creeper"
+  ],
+  "ports_available": [
+    "COM1",
+    "COM2",
+    "COM3",
+    "COM4",
+    "COM5",
+    "COM6"
+  ],
+  "mechanics": {
+    "checking_radius": 10,
+    "view": false
+  },
+  "settings": {
+    "noBoardAllowRun": true,
+    "default_pin": 10
+  }
+}

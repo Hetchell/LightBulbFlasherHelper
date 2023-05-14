@@ -1,0 +1,190 @@
+---- Minecraft Crash Report ----
+// This doesn't make any sense!
+
+Time: 5/14/23 1:35 AM
+Description: Ticking entity
+
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.get(ArrayList.java:433)
+	at dejt.kaku.flasher.lamp.LampState.onStateChange(LampState.java:26)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_4_LampState_onStateChange_NeighborNotifyEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.event.ForgeEventFactory.onNeighborNotify(ForgeEventFactory.java:185)
+	at net.minecraft.world.World.notifyNeighborsOfStateChange(World.java:489)
+	at net.minecraft.world.World.notifyNeighborsRespectDebug(World.java:440)
+	at net.minecraft.world.World.markAndNotifyBlock(World.java:381)
+	at net.minecraft.world.World.setBlockState(World.java:361)
+	at net.minecraft.block.BlockDynamicLiquid.tryFlowInto(BlockDynamicLiquid.java:175)
+	at net.minecraft.block.BlockDynamicLiquid.updateTick(BlockDynamicLiquid.java:153)
+	at net.minecraft.world.WorldServer.updateBlockTick(WorldServer.java:551)
+	at net.minecraft.world.WorldServer.scheduleUpdate(WorldServer.java:531)
+	at net.minecraft.block.BlockDynamicLiquid.onBlockAdded(BlockDynamicLiquid.java:306)
+	at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+	at net.minecraft.world.World.setBlockState(World.java:343)
+	at net.minecraft.block.BlockDynamicLiquid.tryFlowInto(BlockDynamicLiquid.java:175)
+	at net.minecraft.block.BlockDynamicLiquid.updateTick(BlockDynamicLiquid.java:153)
+	at net.minecraft.world.World.immediateBlockTick(World.java:2682)
+	at net.minecraft.world.gen.feature.WorldGenLiquids.generate(WorldGenLiquids.java:88)
+	at net.minecraft.world.biome.BiomeDecorator.genDecorations(BiomeDecorator.java:352)
+	at net.minecraft.world.biome.BiomeDecorator.decorate(BiomeDecorator.java:88)
+	at net.minecraft.world.biome.Biome.decorate(Biome.java:225)
+	at net.minecraft.world.biome.BiomeHills.decorate(BiomeHills.java:41)
+	at net.minecraft.world.gen.ChunkGeneratorOverworld.populate(ChunkGeneratorOverworld.java:464)
+	at net.minecraft.world.chunk.Chunk.populate(Chunk.java:1019)
+	at net.minecraft.world.chunk.Chunk.populate(Chunk.java:999)
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.syncCallback(ChunkIOProvider.java:110)
+	at net.minecraftforge.common.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:94)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:118)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:89)
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:135)
+	at net.minecraft.world.World.getChunkFromChunkCoords(World.java:310)
+	at net.minecraft.world.ChunkCache.<init>(ChunkCache.java:37)
+	at net.minecraft.pathfinding.PathNavigate.getPathToPos(PathNavigate.java:107)
+	at net.minecraft.pathfinding.PathNavigateGround.getPathToPos(PathNavigateGround.java:76)
+	at net.minecraft.pathfinding.PathNavigate.getPathToXYZ(PathNavigate.java:86)
+	at net.minecraft.pathfinding.PathNavigate.tryMoveToXYZ(PathNavigate.java:146)
+	at net.minecraft.entity.ai.EntityAIWander.startExecuting(EntityAIWander.java:74)
+	at net.minecraft.entity.ai.EntityAITasks.onUpdateTasks(EntityAITasks.java:75)
+	at net.minecraft.entity.EntityLiving.updateEntityActionState(EntityLiving.java:763)
+	at net.minecraft.entity.EntityLivingBase.onLivingUpdate(EntityLivingBase.java:2359)
+	at net.minecraft.entity.EntityLiving.onLivingUpdate(EntityLiving.java:577)
+	at net.minecraft.entity.monster.EntityMob.onLivingUpdate(EntityMob.java:45)
+	at net.minecraft.entity.monster.EntityEnderman.onLivingUpdate(EntityEnderman.java:225)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:2179)
+	at net.minecraft.entity.EntityLiving.onUpdate(EntityLiving.java:295)
+	at net.minecraft.entity.monster.EntityMob.onUpdate(EntityMob.java:50)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:1996)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:832)
+	at net.minecraft.world.World.updateEntity(World.java:1958)
+	at net.minecraft.world.World.updateEntities(World.java:1762)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:613)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:767)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:668)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:185)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.get(ArrayList.java:433)
+	at dejt.kaku.flasher.lamp.LampState.onStateChange(LampState.java:26)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_4_LampState_onStateChange_NeighborNotifyEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.event.ForgeEventFactory.onNeighborNotify(ForgeEventFactory.java:185)
+	at net.minecraft.world.World.notifyNeighborsOfStateChange(World.java:489)
+	at net.minecraft.world.World.notifyNeighborsRespectDebug(World.java:440)
+	at net.minecraft.world.World.markAndNotifyBlock(World.java:381)
+	at net.minecraft.world.World.setBlockState(World.java:361)
+	at net.minecraft.block.BlockDynamicLiquid.tryFlowInto(BlockDynamicLiquid.java:175)
+	at net.minecraft.block.BlockDynamicLiquid.updateTick(BlockDynamicLiquid.java:153)
+	at net.minecraft.world.WorldServer.updateBlockTick(WorldServer.java:551)
+	at net.minecraft.world.WorldServer.scheduleUpdate(WorldServer.java:531)
+	at net.minecraft.block.BlockDynamicLiquid.onBlockAdded(BlockDynamicLiquid.java:306)
+	at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+	at net.minecraft.world.World.setBlockState(World.java:343)
+	at net.minecraft.block.BlockDynamicLiquid.tryFlowInto(BlockDynamicLiquid.java:175)
+	at net.minecraft.block.BlockDynamicLiquid.updateTick(BlockDynamicLiquid.java:153)
+	at net.minecraft.world.World.immediateBlockTick(World.java:2682)
+	at net.minecraft.world.gen.feature.WorldGenLiquids.generate(WorldGenLiquids.java:88)
+	at net.minecraft.world.biome.BiomeDecorator.genDecorations(BiomeDecorator.java:352)
+	at net.minecraft.world.biome.BiomeDecorator.decorate(BiomeDecorator.java:88)
+	at net.minecraft.world.biome.Biome.decorate(Biome.java:225)
+	at net.minecraft.world.biome.BiomeHills.decorate(BiomeHills.java:41)
+	at net.minecraft.world.gen.ChunkGeneratorOverworld.populate(ChunkGeneratorOverworld.java:464)
+	at net.minecraft.world.chunk.Chunk.populate(Chunk.java:1019)
+	at net.minecraft.world.chunk.Chunk.populate(Chunk.java:999)
+	at net.minecraftforge.common.chunkio.ChunkIOProvider.syncCallback(ChunkIOProvider.java:110)
+	at net.minecraftforge.common.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:94)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:118)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:89)
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:135)
+	at net.minecraft.world.World.getChunkFromChunkCoords(World.java:310)
+	at net.minecraft.world.ChunkCache.<init>(ChunkCache.java:37)
+	at net.minecraft.pathfinding.PathNavigate.getPathToPos(PathNavigate.java:107)
+	at net.minecraft.pathfinding.PathNavigateGround.getPathToPos(PathNavigateGround.java:76)
+	at net.minecraft.pathfinding.PathNavigate.getPathToXYZ(PathNavigate.java:86)
+	at net.minecraft.pathfinding.PathNavigate.tryMoveToXYZ(PathNavigate.java:146)
+	at net.minecraft.entity.ai.EntityAIWander.startExecuting(EntityAIWander.java:74)
+	at net.minecraft.entity.ai.EntityAITasks.onUpdateTasks(EntityAITasks.java:75)
+	at net.minecraft.entity.EntityLiving.updateEntityActionState(EntityLiving.java:763)
+	at net.minecraft.entity.EntityLivingBase.onLivingUpdate(EntityLivingBase.java:2359)
+	at net.minecraft.entity.EntityLiving.onLivingUpdate(EntityLiving.java:577)
+	at net.minecraft.entity.monster.EntityMob.onLivingUpdate(EntityMob.java:45)
+	at net.minecraft.entity.monster.EntityEnderman.onLivingUpdate(EntityEnderman.java:225)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:2179)
+	at net.minecraft.entity.EntityLiving.onUpdate(EntityLiving.java:295)
+	at net.minecraft.entity.monster.EntityMob.onUpdate(EntityMob.java:50)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:1996)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:832)
+	at net.minecraft.world.World.updateEntity(World.java:1958)
+
+-- Entity being ticked --
+Details:
+	Entity Type: minecraft:enderman (net.minecraft.entity.monster.EntityEnderman)
+	Entity ID: 90
+	Entity Name: Enderman
+	Entity's Exact location: -132.50, 72.00, 115.50
+	Entity's Block location: World: (-133,72,115), Chunk: (at 11,4,3 in -9,7; contains blocks -144,0,112 to -129,255,127), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.world.World.updateEntities(World.java:1762)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:613)
+
+-- Affected level --
+Details:
+	Level name: New World
+	All players: 0 total; []
+	Chunk stats: ServerChunkCache: 641 Drop: 0
+	Level seed: 2497270078740496489
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (-112,64,256), Chunk: (at 0,4,0 in -7,16; contains blocks -112,0,256 to -97,255,271), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 15849 game time, 15849 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 75106 (now: false), thunder time: 140058 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:767)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:668)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:185)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_202, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 507955480 bytes (484 MB) / 1235746816 bytes (1178 MB) up to 3776970752 bytes (3602 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP 9.42 Powered by Forge 14.23.5.2859 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID               | Version      | Source                                                             | Signature |
+	|:------ |:---------------- |:------------ |:------------------------------------------------------------------ |:--------- |
+	| LCHIJA | minecraft        | 1.12.2       | minecraft.jar                                                      | None      |
+	| LCHIJA | mcp              | 9.42         | minecraft.jar                                                      | None      |
+	| LCHIJA | FML              | 8.0.99.99    | forge-1.12.2-14.23.5.2859_mapped_snapshot_20171003-1.12-recomp.jar | None      |
+	| LCHIJA | forge            | 14.23.5.2859 | forge-1.12.2-14.23.5.2859_mapped_snapshot_20171003-1.12-recomp.jar | None      |
+	| LCHIJA | lightbulbflasher | 1.0          | main                                                               | None      |
+
+	Loaded coremods (and transformers): 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 8; []
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
