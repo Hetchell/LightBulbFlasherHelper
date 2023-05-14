@@ -37,11 +37,11 @@ goes to ground.
 download Arduino IDE, then go to file/examples/firmata/standardfirmata. Upload the sketch into the board.
 If error occurs, it is possible that you USB -> UART is a CH340. Then you need to search for
 drivers and download into your computer(search 'CH340' on the internet, it should 
-come out easy)
+come out easy).
 3. DO NOT MODIFY THE CONFIGDATA CLASS, unless you want to mess up the execution of code.
 If you want to change configuration, go and edit the lightbulbflasher.json file, and only
 the parts after the "abcde.." : part. i.e. "checking_radius" : 10 modify to 
-"checking radius" : 17. 
+"checking_radius" : 17. 
 4. When you modify lightbulbflasher.json, do it with sensibleness. boolean is true/false,
 integers data values have to be more than 0. default_pin has to exist on your
 Arduino board's digital pin set(this becomes defpin). For what can be written in entityList_affected, see
