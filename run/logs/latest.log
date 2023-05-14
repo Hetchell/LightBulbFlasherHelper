@@ -1,48 +1,48 @@
-[21:10:41] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[21:10:41] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[21:10:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[21:10:41] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2859 for Minecraft 1.12.2 loading
-[21:10:41] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_202, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_202\jre
-[21:10:41] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[21:10:41] [main/ERROR] [FML]: Full: C:\Users\Goh Weisheng\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[21:10:41] [main/ERROR] [FML]: Trimmed: c:/users/goh weisheng/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[21:10:42] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[21:10:42] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[21:10:42] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[21:10:42] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[21:10:42] [main/INFO] [FML]: Searching D:\LightBulbFlasher\run\.\mods for mods
-[21:10:42] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[21:10:42] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[21:10:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[21:10:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[21:10:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[21:10:45] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[21:10:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[21:10:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[21:10:45] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[21:10:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[21:10:45] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[21:10:46] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player610
-[21:10:50] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[21:10:50] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[21:10:52] [Client thread/INFO] [FML]: -- System Details --
+[00:15:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[00:15:31] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[00:15:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[00:15:31] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2859 for Minecraft 1.12.2 loading
+[00:15:31] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_202, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_202\jre
+[00:15:32] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[00:15:32] [main/ERROR] [FML]: Full: C:\Users\TBNRd\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[00:15:32] [main/ERROR] [FML]: Trimmed: c:/users/tbnrd/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[00:15:32] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[00:15:32] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[00:15:32] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[00:15:32] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[00:15:32] [main/INFO] [FML]: Searching D:\LFlasher\run\.\mods for mods
+[00:15:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:15:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:15:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:15:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:15:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:15:33] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[00:15:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:15:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:15:34] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:15:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:15:34] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[00:15:34] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player502
+[00:15:37] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[00:15:37] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[00:15:38] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_202, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 742270256 bytes (707 MB) / 925892608 bytes (883 MB) up to 3776970752 bytes (3602 MB)
+	Memory: 1073183336 bytes (1023 MB) / 1261436928 bytes (1203 MB) up to 7497842688 bytes (7150 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
-	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 471.68' Renderer: 'NVIDIA GeForce GTX 970M/PCIe/SSE2'
-[21:10:52] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2859 Initialized
-[21:10:52] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[21:10:52] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[21:10:53] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
-[21:10:53] [Client thread/INFO] [FML]: Searching D:\LightBulbFlasher\run\.\mods for mods
-[21:10:53] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.0 Compatibility Profile Context 22.20.14.220712' Renderer: 'AMD Radeon(TM) Graphics'
+[00:15:38] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2859 Initialized
+[00:15:38] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[00:15:38] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[00:15:38] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[00:15:38] [Client thread/INFO] [FML]: Searching D:\LFlasher\run\.\mods for mods
+[00:15:38] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -71,7 +71,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[21:10:53] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Goh Weisheng\.gradle\caches\modules-2\files-2.1\io.github.java-native\jssc\2.9.4\40d6018506d706a4a6a6ec5ed1e52c566f4e0687\jssc-2.9.4.jar - probably a corrupt zip
+[00:15:38] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\TBNRd\.gradle\caches\modules-2\files-2.1\io.github.java-native\jssc\2.9.4\40d6018506d706a4a6a6ec5ed1e52c566f4e0687\jssc-2.9.4.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -104,7 +104,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[21:10:53] [Client thread/WARN] [FML]: Zip file jssc-2.9.4.jar failed to read properly, it will be ignored
+[00:15:38] [Client thread/WARN] [FML]: Zip file jssc-2.9.4.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -137,7 +137,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[21:10:54] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[00:15:39] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -166,7 +166,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[21:10:54] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/module-info.class in the jar C:\Users\Goh Weisheng\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.8.0-beta4\83b0359d847ee053d745be7ec0d8e9e8a44304b4\slf4j-api-1.8.0-beta4.jar - probably a corrupt zip
+[00:15:39] [Client thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/module-info.class in the jar C:\Users\TBNRd\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.8.0-beta4\83b0359d847ee053d745be7ec0d8e9e8a44304b4\slf4j-api-1.8.0-beta4.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -199,7 +199,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[21:10:54] [Client thread/WARN] [FML]: Zip file slf4j-api-1.8.0-beta4.jar failed to read properly, it will be ignored
+[00:15:39] [Client thread/WARN] [FML]: Zip file slf4j-api-1.8.0-beta4.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -232,7 +232,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[21:10:55] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[00:15:39] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -261,7 +261,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[21:10:55] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Goh Weisheng\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar - probably a corrupt zip
+[00:15:39] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\TBNRd\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -294,7 +294,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[21:10:55] [Client thread/WARN] [FML]: Zip file asm-util-6.2.jar failed to read properly, it will be ignored
+[00:15:39] [Client thread/WARN] [FML]: Zip file asm-util-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -327,7 +327,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[21:10:55] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[00:15:39] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -356,7 +356,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[21:10:55] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Goh Weisheng\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar - probably a corrupt zip
+[00:15:39] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\TBNRd\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -389,7 +389,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[21:10:55] [Client thread/WARN] [FML]: Zip file asm-analysis-6.2.jar failed to read properly, it will be ignored
+[00:15:39] [Client thread/WARN] [FML]: Zip file asm-analysis-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -422,7 +422,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[21:10:55] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[00:15:39] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -451,7 +451,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[21:10:55] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Goh Weisheng\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar - probably a corrupt zip
+[00:15:39] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\TBNRd\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -484,7 +484,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[21:10:55] [Client thread/WARN] [FML]: Zip file asm-tree-6.2.jar failed to read properly, it will be ignored
+[00:15:39] [Client thread/WARN] [FML]: Zip file asm-tree-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -517,7 +517,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[21:10:55] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[00:15:39] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -546,7 +546,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[21:10:55] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Goh Weisheng\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar - probably a corrupt zip
+[00:15:39] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\TBNRd\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -579,7 +579,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[21:10:55] [Client thread/WARN] [FML]: Zip file asm-6.2.jar failed to read properly, it will be ignored
+[00:15:39] [Client thread/WARN] [FML]: Zip file asm-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -612,51 +612,439 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[21:10:55] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
-[21:10:55] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 171666000 nanos
-[21:10:55] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, lightbulbflasher] at CLIENT
-[21:10:55] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, lightbulbflasher] at SERVER
-[21:10:56] [Client thread/INFO] [STDOUT]: [dejt.kaku.flasher.flasher.SetupBoard:<init>:46]: Port name: COM1 fail. Try next one...
-[21:10:56] [Client thread/INFO] [STDOUT]: [dejt.kaku.flasher.flasher.SetupBoard:<init>:46]: Port name: COM2 fail. Try next one...
-[21:10:56] [Client thread/INFO] [STDOUT]: [dejt.kaku.flasher.flasher.SetupBoard:<init>:46]: Port name: COM3 fail. Try next one...
-[21:10:56] [Client thread/INFO] [STDOUT]: [dejt.kaku.flasher.flasher.SetupBoard:<init>:46]: Port name: COM4 fail. Try next one...
-[21:10:56] [Client thread/INFO] [STDOUT]: [dejt.kaku.flasher.flasher.SetupBoard:<init>:46]: Port name: COM5 fail. Try next one...
-[21:10:56] [Client thread/INFO] [STDOUT]: [dejt.kaku.flasher.flasher.SetupBoard:<init>:46]: Port name: COM6 fail. Try next one...
-[21:10:56] [Client thread/INFO] [STDOUT]: [dejt.kaku.flasher.flasher.SetupBoard:<init>:50]: Error! Connection failed for all ports.
-[21:10:56] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Light Bulb Flasher helper
-[21:10:56] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[21:10:56] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[21:10:56] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[21:10:56] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[21:10:57] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[21:10:57] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[21:10:57] [Client thread/INFO] [FML]: Applying holder lookups
-[21:10:57] [Client thread/INFO] [FML]: Holder lookups applied
-[21:10:57] [Client thread/INFO] [FML]: Applying holder lookups
-[21:10:57] [Client thread/INFO] [FML]: Holder lookups applied
-[21:10:57] [Client thread/INFO] [FML]: Applying holder lookups
-[21:10:57] [Client thread/INFO] [FML]: Holder lookups applied
-[21:10:57] [Client thread/INFO] [FML]: Applying holder lookups
-[21:10:57] [Client thread/INFO] [FML]: Holder lookups applied
-[21:10:57] [Client thread/INFO] [FML]: Injecting itemstacks
-[21:10:57] [Client thread/INFO] [FML]: Itemstack injection complete
-[21:11:00] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[21:11:00] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
-[21:11:00] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[21:11:00] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[21:11:00] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[21:11:00] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[21:11:07] [Client thread/INFO] [FML]: Max texture size: 16384
-[21:11:10] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
-[21:11:12] [Client thread/INFO] [FML]: Applying holder lookups
-[21:11:12] [Client thread/INFO] [FML]: Holder lookups applied
-[21:11:12] [Client thread/INFO] [lightbulbflasher]: DIRT BLOCK >> minecraft:dirt
-[21:11:12] [Client thread/INFO] [FML]: Injecting itemstacks
-[21:11:12] [Client thread/INFO] [FML]: Itemstack injection complete
-[21:11:12] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
-[21:11:12] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[21:11:12] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
-[21:11:13] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[21:11:35] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[21:11:35] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[21:11:35] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+[00:15:39] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[00:15:39] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, lightbulbflasher] at CLIENT
+[00:15:39] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, lightbulbflasher] at SERVER
+[00:15:40] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 23970608 nanos
+[00:15:40] [Client thread/INFO] [STDOUT]: [dejt.kaku.flasher.flasher.SetupBoard:<init>:46]: Port name: COM1 fail. Try next one...
+[00:15:40] [Client thread/INFO] [STDOUT]: [dejt.kaku.flasher.flasher.SetupBoard:<init>:46]: Port name: COM2 fail. Try next one...
+[00:15:40] [Client thread/INFO] [STDOUT]: [dejt.kaku.flasher.flasher.SetupBoard:<init>:46]: Port name: COM3 fail. Try next one...
+[00:15:40] [Client thread/INFO] [STDOUT]: [dejt.kaku.flasher.flasher.SetupBoard:<init>:46]: Port name: COM4 fail. Try next one...
+[00:15:40] [Client thread/INFO] [STDOUT]: [dejt.kaku.flasher.flasher.SetupBoard:<init>:46]: Port name: COM5 fail. Try next one...
+[00:15:40] [Client thread/INFO] [STDOUT]: [dejt.kaku.flasher.flasher.SetupBoard:<init>:46]: Port name: COM6 fail. Try next one...
+[00:15:40] [Client thread/INFO] [STDOUT]: [dejt.kaku.flasher.flasher.SetupBoard:<init>:50]: Error! Connection failed for all ports.
+[00:15:40] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Light Bulb Flasher helper
+[00:15:40] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[00:15:40] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[00:15:40] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[00:15:40] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[00:15:40] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[00:15:40] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[00:15:40] [Client thread/INFO] [FML]: Applying holder lookups
+[00:15:40] [Client thread/INFO] [FML]: Holder lookups applied
+[00:15:40] [Client thread/INFO] [FML]: Applying holder lookups
+[00:15:40] [Client thread/INFO] [FML]: Holder lookups applied
+[00:15:40] [Client thread/INFO] [FML]: Applying holder lookups
+[00:15:40] [Client thread/INFO] [FML]: Holder lookups applied
+[00:15:40] [Client thread/INFO] [FML]: Applying holder lookups
+[00:15:40] [Client thread/INFO] [FML]: Holder lookups applied
+[00:15:40] [Client thread/INFO] [FML]: Injecting itemstacks
+[00:15:40] [Client thread/INFO] [FML]: Itemstack injection complete
+[00:15:42] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[00:15:42] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[00:15:42] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[00:15:42] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[00:15:42] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[00:15:43] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[00:15:47] [Client thread/INFO] [FML]: Max texture size: 16384
+[00:15:49] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[00:15:50] [Client thread/INFO] [FML]: Applying holder lookups
+[00:15:50] [Client thread/INFO] [FML]: Holder lookups applied
+[00:15:50] [Client thread/INFO] [lightbulbflasher]: DIRT BLOCK >> minecraft:dirt
+[00:15:50] [Client thread/INFO] [FML]: Injecting itemstacks
+[00:15:50] [Client thread/INFO] [FML]: Itemstack injection complete
+[00:15:50] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[00:15:50] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[00:15:50] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[00:15:51] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[00:16:19] [Client thread/INFO] [net.minecraft.world.storage.SaveFormatOld]: Deleting level New World
+[00:16:19] [Client thread/INFO] [net.minecraft.world.storage.SaveFormatOld]: Attempt 1...
+[00:16:21] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[00:16:21] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[00:16:21] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[00:16:21] [Server thread/INFO] [FML]: Applying holder lookups
+[00:16:21] [Server thread/INFO] [FML]: Holder lookups applied
+[00:16:22] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@28ed75eb)
+[00:16:22] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[00:16:22] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@28ed75eb)
+[00:16:22] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@28ed75eb)
+[00:16:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[00:16:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 11%
+[00:16:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 26%
+[00:16:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 41%
+[00:16:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 57%
+[00:16:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 73%
+[00:16:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 90%
+[00:16:29] [Server thread/INFO] [FML]: Unloading dimension -1
+[00:16:29] [Server thread/INFO] [FML]: Unloading dimension 1
+[00:16:29] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 8, from 10
+[00:16:30] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[00:16:30] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[00:16:30] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,mcp@9.42,lightbulbflasher@1.0
+[00:16:30] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[00:16:30] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[00:16:30] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player502[local:E:8f87b4a2] logged in with entity id 1284 at (197.5, 68.0, 197.5)
+[00:16:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player502 joined the game
+[00:16:31] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[00:16:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[00:16:33] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2165ms behind, skipping 43 tick(s)
+[00:16:51] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Usage: /setblock <x> <y> <z> <block> [dataValue|state] [oldBlockHandling] [dataTag]
+[00:17:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Block placed]
+[00:17:03] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Block placed
+[00:17:06] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 5 advancements
+[00:19:14] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ']' is not a valid number
+[00:19:14] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ']' is not a valid number
+[00:19:14] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ']' is not a valid number
+[00:19:14] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ']' is not a valid number
+[00:19:14] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ']' is not a valid number
+[00:19:14] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ']' is not a valid number
+[00:19:14] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ']' is not a valid number
+[00:19:14] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ']' is not a valid number
+[00:19:14] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ']' is not a valid number
+[00:19:14] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ']' is not a valid number
+[00:19:14] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ']' is not a valid number
+[00:19:14] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ']' is not a valid number
+[00:19:14] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ']' is not a valid number
+[00:19:14] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ']' is not a valid number
+[00:19:14] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ']' is not a valid number
+[00:19:14] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ']' is not a valid number
+[00:19:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 174.5135432317539, -937.5008739407463, 178.5445970991299]
+[00:19:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 216.5, -968.0, 175.5]
+[00:19:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 256.5, -949.0, 148.5]
+[00:19:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 230.5, -976.0, 126.5]
+[00:19:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 196.5, -952.0, 75.5]
+[00:19:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 180.5, -987.0, 71.5]
+[00:19:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 215.5, -965.0, 68.5]
+[00:19:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 197.5, -962.0, 61.5]
+[00:19:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 201.5, -962.0, 61.5]
+[00:19:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 209.5, -958.0, 61.5]
+[00:19:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 281.5, -945.0, 90.5]
+[00:19:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 292.5, -966.0, 246.5]
+[00:19:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 93.5, -958.0, 304.5]
+[00:19:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 58.5, -976.0, 266.5]
+[00:19:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 57.5, -976.0, 265.5]
+[00:19:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 48.5, -980.0, 252.5]
+[00:19:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 174.5135432317539, -937.5008739407463, 178.5445970991299
+[00:19:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 216.5, -968.0, 175.5
+[00:19:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 301.5, -984.0, 309.5]
+[00:19:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 256.5, -949.0, 148.5
+[00:19:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 230.5, -976.0, 126.5
+[00:19:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 196.5, -952.0, 75.5
+[00:19:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 180.5, -987.0, 71.5
+[00:19:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 215.5, -965.0, 68.5
+[00:19:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 197.5, -962.0, 61.5
+[00:19:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 201.5, -962.0, 61.5
+[00:19:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 209.5, -958.0, 61.5
+[00:19:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 281.5, -945.0, 90.5
+[00:19:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 292.5, -966.0, 246.5
+[00:19:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 93.5, -958.0, 304.5
+[00:19:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 58.5, -976.0, 266.5
+[00:19:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 57.5, -976.0, 265.5
+[00:19:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 48.5, -980.0, 252.5
+[00:19:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 301.5, -984.0, 309.5
+[00:20:12] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 11 advancements
+[00:20:52] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 12 advancements
+[00:23:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player502 has made the advancement [Stone Age]
+[00:23:03] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player502 has made the advancement [Stone Age]
+[00:23:03] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 26 advancements
+[00:23:06] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 32 advancements
+[00:23:07] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 33 advancements
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 173.3419985358588, -937.6951424080721, 179.04804823044324]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 174.5, -961.150000011921, 201.5]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 186.5, -984.0, 244.5]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 233.5, -976.0, 130.5]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 264.5, -968.0, 150.5]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 172.5, -978.0, 84.5]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 124.5, -982.0, 92.5]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 124.5, -982.0, 91.5]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 122.5, -982.0, 90.5]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 113.38098798392538, -982.940971570274, 93.07656967219081]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 55.5, -931.0, 231.5]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 288.5, -973.0, 253.5]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 286.5, -940.0, 71.5]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 286.5, -940.0, 69.5]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 281.5, -1945.0, 90.5]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 209.5, -1958.0, 61.5]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 93.5, -1958.0, 304.5]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 197.5, -1962.0, 61.5]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 201.5, -1962.0, 61.5]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 292.5, -1966.0, 246.5]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 58.5, -1976.0, 266.5]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 57.5, -1976.0, 265.5]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 48.5, -1980.0, 252.5]
+[00:23:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 301.5, -1984.0, 309.5]
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 173.3419985358588, -937.6951424080721, 179.04804823044324
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 174.5, -961.150000011921, 201.5
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 186.5, -984.0, 244.5
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 233.5, -976.0, 130.5
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 264.5, -968.0, 150.5
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 172.5, -978.0, 84.5
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 124.5, -982.0, 92.5
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 124.5, -982.0, 91.5
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 122.5, -982.0, 90.5
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 113.38098798392538, -982.940971570274, 93.07656967219081
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 55.5, -931.0, 231.5
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 288.5, -973.0, 253.5
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 286.5, -940.0, 71.5
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 286.5, -940.0, 69.5
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 281.5, -1945.0, 90.5
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 209.5, -1958.0, 61.5
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 93.5, -1958.0, 304.5
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 197.5, -1962.0, 61.5
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 201.5, -1962.0, 61.5
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 292.5, -1966.0, 246.5
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 58.5, -1976.0, 266.5
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 57.5, -1976.0, 265.5
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 48.5, -1980.0, 252.5
+[00:23:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 301.5, -1984.0, 309.5
+[00:26:07] [Server thread/ERROR] [lightbulbflasher]: null
+[00:26:07] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:26:09] [Server thread/ERROR] [lightbulbflasher]: null
+[00:26:09] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:26:11] [Server thread/ERROR] [lightbulbflasher]: null
+[00:26:11] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 172.69999998807907, -937.3868016740327, 180.69999998807907]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 162.5, -959.0, 200.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 134.5, -967.0, 125.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 176.5, -959.0, 91.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 198.5, -975.0, 254.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 203.5, -951.0, 72.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 168.98091458602377, -946.0, 55.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 223.5, -961.0, 62.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 123.5, -973.0, 47.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 54.5, -977.0, 261.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 53.5, -975.0, 265.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 49.5, -975.0, 264.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 48.5, -975.0, 264.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 49.5, -975.0, 266.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 51.5, -980.0, 296.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 47.5, -980.0, 294.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 55.5, -1931.0, 231.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 286.5, -1940.0, 71.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 286.5, -1940.0, 69.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 288.5, -1973.0, 253.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 281.5, -2945.0, 90.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 93.5, -2958.0, 304.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 292.5, -2966.0, 246.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 58.5, -2976.0, 266.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 57.5, -2976.0, 265.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 48.5, -2980.0, 252.5]
+[00:26:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Skeleton to 301.5, -2984.0, 309.5]
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 172.69999998807907, -937.3868016740327, 180.69999998807907
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 162.5, -959.0, 200.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 134.5, -967.0, 125.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 176.5, -959.0, 91.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 198.5, -975.0, 254.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 203.5, -951.0, 72.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 168.98091458602377, -946.0, 55.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 223.5, -961.0, 62.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 123.5, -973.0, 47.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 54.5, -977.0, 261.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 53.5, -975.0, 265.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 49.5, -975.0, 264.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 48.5, -975.0, 264.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 49.5, -975.0, 266.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 51.5, -980.0, 296.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 47.5, -980.0, 294.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 55.5, -1931.0, 231.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 286.5, -1940.0, 71.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 286.5, -1940.0, 69.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 288.5, -1973.0, 253.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 281.5, -2945.0, 90.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 93.5, -2958.0, 304.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 292.5, -2966.0, 246.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 58.5, -2976.0, 266.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 57.5, -2976.0, 265.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 48.5, -2980.0, 252.5
+[00:26:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Skeleton to 301.5, -2984.0, 309.5
+[00:26:45] [Server thread/ERROR] [lightbulbflasher]: null
+[00:26:45] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:27:06] [Server thread/ERROR] [lightbulbflasher]: null
+[00:27:06] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:27:15] [Server thread/ERROR] [lightbulbflasher]: null
+[00:27:15] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:27:17] [Server thread/ERROR] [lightbulbflasher]: null
+[00:27:17] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:27:21] [Server thread/ERROR] [lightbulbflasher]: null
+[00:27:21] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:27:36] [Server thread/ERROR] [lightbulbflasher]: null
+[00:27:36] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:28:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 170.1747309018598, -938.0148596332069, 173.0316734298765]
+[00:28:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 162.5, -936.0, 138.5]
+[00:28:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 163.5, -936.0, 136.5]
+[00:28:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 213.5, -985.0, 106.5]
+[00:28:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 149.5, -945.0, 64.5]
+[00:28:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 170.1747309018598, -938.0148596332069, 173.0316734298765
+[00:28:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 162.5, -936.0, 138.5
+[00:28:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 163.5, -936.0, 136.5
+[00:28:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 204.5, -963.0, 62.5]
+[00:28:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 213.5, -985.0, 106.5
+[00:28:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 52.5, -933.0, 211.5]
+[00:28:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 122.5, -969.0, 70.5]
+[00:28:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 213.5, -964.0, 63.5]
+[00:28:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 207.83666275606222, -962.0, 60.51050861417779]
+[00:28:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 197.5, -949.0, 52.5]
+[00:28:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 294.5, -944.0, 237.5]
+[00:28:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 304.5, -966.0, 193.5]
+[00:28:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 145.5, -961.0, 313.5]
+[00:28:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 146.5, -961.0, 315.5]
+[00:28:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 57.5, -975.0, 253.5]
+[00:28:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 60.5, -977.0, 256.5]
+[00:28:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 290.5, -973.0, 251.5]
+[00:28:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 95.5, -976.0, 294.5]
+[00:28:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 50.5, -981.0, 251.5]
+[00:28:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 283.5, -953.0, 311.5]
+[00:28:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 297.5, -984.0, 304.5]
+[00:28:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 149.5, -945.0, 64.5
+[00:28:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 204.5, -963.0, 62.5
+[00:28:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 52.5, -933.0, 211.5
+[00:28:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 122.5, -969.0, 70.5
+[00:28:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 213.5, -964.0, 63.5
+[00:28:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 207.83666275606222, -962.0, 60.51050861417779
+[00:28:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 197.5, -949.0, 52.5
+[00:28:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 294.5, -944.0, 237.5
+[00:28:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 304.5, -966.0, 193.5
+[00:28:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 145.5, -961.0, 313.5
+[00:28:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 146.5, -961.0, 315.5
+[00:28:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 57.5, -975.0, 253.5
+[00:28:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 60.5, -977.0, 256.5
+[00:28:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 290.5, -973.0, 251.5
+[00:28:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 95.5, -976.0, 294.5
+[00:28:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 50.5, -981.0, 251.5
+[00:28:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 283.5, -953.0, 311.5
+[00:28:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 297.5, -984.0, 304.5
+[00:28:49] [Server thread/ERROR] [lightbulbflasher]: null
+[00:28:49] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:29:01] [Server thread/ERROR] [lightbulbflasher]: null
+[00:29:01] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:29:03] [Server thread/ERROR] [lightbulbflasher]: null
+[00:29:03] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:29:08] [Server thread/ERROR] [lightbulbflasher]: null
+[00:29:08] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:30:00] [Server thread/ERROR] [lightbulbflasher]: null
+[00:30:00] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:30:04] [Server thread/ERROR] [lightbulbflasher]: null
+[00:30:04] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:30:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 170.98189985076897, -937.3570503376616, 182.83424929803974]
+[00:30:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 170.30000001192093, -937.9967109434447, 178.82836605186637]
+[00:30:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 246.5, -931.0, 196.5]
+[00:30:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 283.5, -928.0, 168.5]
+[00:30:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 52.5, -1933.0, 211.5]
+[00:30:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 294.5, -1944.0, 237.5]
+[00:30:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 197.5, -1949.0, 52.5]
+[00:30:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 283.5, -1953.0, 311.5]
+[00:30:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 207.83666275606222, -1962.0, 60.51050861417779]
+[00:30:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 204.5, -1963.0, 62.5]
+[00:30:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 145.5, -1961.0, 313.5]
+[00:30:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 146.5, -1961.0, 315.5]
+[00:30:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 213.5, -1964.0, 63.5]
+[00:30:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 304.5, -1966.0, 193.5]
+[00:30:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 290.5, -1973.0, 251.5]
+[00:30:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 57.5, -1975.0, 253.5]
+[00:30:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 95.5, -1976.0, 294.5]
+[00:30:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 60.5, -1977.0, 256.5]
+[00:30:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 50.5, -1981.0, 251.5]
+[00:30:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 297.5, -1984.0, 304.5]
+[00:30:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 170.98189985076897, -937.3570503376616, 182.83424929803974
+[00:30:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 170.30000001192093, -937.9967109434447, 178.82836605186637
+[00:30:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 246.5, -931.0, 196.5
+[00:30:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 283.5, -928.0, 168.5
+[00:30:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 52.5, -1933.0, 211.5
+[00:30:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 294.5, -1944.0, 237.5
+[00:30:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 197.5, -1949.0, 52.5
+[00:30:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 283.5, -1953.0, 311.5
+[00:30:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 207.83666275606222, -1962.0, 60.51050861417779
+[00:30:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 204.5, -1963.0, 62.5
+[00:30:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 145.5, -1961.0, 313.5
+[00:30:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 146.5, -1961.0, 315.5
+[00:30:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 213.5, -1964.0, 63.5
+[00:30:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 304.5, -1966.0, 193.5
+[00:30:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 290.5, -1973.0, 251.5
+[00:30:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 57.5, -1975.0, 253.5
+[00:30:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 95.5, -1976.0, 294.5
+[00:30:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 60.5, -1977.0, 256.5
+[00:30:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 50.5, -1981.0, 251.5
+[00:30:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 297.5, -1984.0, 304.5
+[00:30:36] [Server thread/ERROR] [lightbulbflasher]: null
+[00:30:36] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:30:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 171.92389560849864, -937.9081600042558, 178.69999998807907]
+[00:30:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 52.5, -2933.0, 211.5]
+[00:30:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 294.5, -2944.0, 237.5]
+[00:30:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 197.5, -2949.0, 52.5]
+[00:30:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 283.5, -2953.0, 311.5]
+[00:30:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 207.83666275606222, -2962.0, 60.51050861417779]
+[00:30:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 204.5, -2963.0, 62.5]
+[00:30:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 145.5, -2961.0, 313.5]
+[00:30:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 146.5, -2961.0, 315.5]
+[00:30:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 213.5, -2964.0, 63.5]
+[00:30:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 304.5, -2966.0, 193.5]
+[00:30:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 290.5, -2973.0, 251.5]
+[00:30:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 57.5, -2975.0, 253.5]
+[00:30:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 95.5, -2976.0, 294.5]
+[00:30:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 60.5, -2977.0, 256.5]
+[00:30:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 50.5, -2981.0, 251.5]
+[00:30:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player502: Teleported Creeper to 297.5, -2984.0, 304.5]
+[00:30:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 171.92389560849864, -937.9081600042558, 178.69999998807907
+[00:30:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 52.5, -2933.0, 211.5
+[00:30:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 294.5, -2944.0, 237.5
+[00:30:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 197.5, -2949.0, 52.5
+[00:30:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 283.5, -2953.0, 311.5
+[00:30:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 207.83666275606222, -2962.0, 60.51050861417779
+[00:30:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 204.5, -2963.0, 62.5
+[00:30:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 145.5, -2961.0, 313.5
+[00:30:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 146.5, -2961.0, 315.5
+[00:30:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 213.5, -2964.0, 63.5
+[00:30:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 304.5, -2966.0, 193.5
+[00:30:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 290.5, -2973.0, 251.5
+[00:30:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 57.5, -2975.0, 253.5
+[00:30:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 95.5, -2976.0, 294.5
+[00:30:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 60.5, -2977.0, 256.5
+[00:30:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 50.5, -2981.0, 251.5
+[00:30:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Teleported Creeper to 297.5, -2984.0, 304.5
+[00:30:55] [Server thread/ERROR] [lightbulbflasher]: null
+[00:30:55] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:30:58] [Server thread/ERROR] [lightbulbflasher]: null
+[00:30:58] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:31:08] [Server thread/ERROR] [lightbulbflasher]: null
+[00:31:08] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:31:11] [Server thread/ERROR] [lightbulbflasher]: null
+[00:31:11] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:31:25] [Server thread/ERROR] [lightbulbflasher]: null
+[00:31:25] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:31:41] [Server thread/ERROR] [lightbulbflasher]: null
+[00:31:41] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:31:43] [Server thread/ERROR] [lightbulbflasher]: null
+[00:31:43] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:32:42] [Server thread/ERROR] [lightbulbflasher]: null
+[00:32:42] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:32:44] [Server thread/ERROR] [lightbulbflasher]: null
+[00:32:44] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:33:15] [Server thread/ERROR] [lightbulbflasher]: null
+[00:33:15] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:33:17] [Server thread/ERROR] [lightbulbflasher]: null
+[00:33:17] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:34:38] [Server thread/ERROR] [lightbulbflasher]: null
+[00:34:38] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:35:04] [Server thread/ERROR] [lightbulbflasher]: null
+[00:35:04] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:35:17] [Server thread/ERROR] [lightbulbflasher]: null
+[00:35:17] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:35:38] [Server thread/ERROR] [lightbulbflasher]: null
+[00:35:38] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:35:45] [Server thread/ERROR] [lightbulbflasher]: null
+[00:35:45] [Server thread/INFO] [STDOUT]: [dejt.kaku.flasher.lamp.LampState:onStateChange:45]: Rail is powered
+[00:36:04] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[00:36:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[00:36:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[00:36:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[00:36:05] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player502 lost connection: Disconnected
+[00:36:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player502 left the game
+[00:36:05] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[00:36:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[00:36:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[00:36:05] [Server thread/INFO] [FML]: Unloading dimension 0
+[00:36:05] [Server thread/INFO] [FML]: Applying holder lookups
+[00:36:05] [Server thread/INFO] [FML]: Holder lookups applied
+[00:36:23] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[00:36:23] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[00:36:24] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

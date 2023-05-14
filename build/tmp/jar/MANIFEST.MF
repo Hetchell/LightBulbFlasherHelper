@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
-Implementation-Title: forge-1.12.2-14.23.5.2859-mdk
+Implementation-Title: LFlasher
 Implementation-Version: 1.0
 Specification-Vendor: kakuikki
 Specification-Title: lightbulbflasher
-Implementation-Timestamp: 2023-05-14T18:29:05+0800
+Implementation-Timestamp: 2023-05-14T22:27:17+0800
 Specification-Version: 1
 Implementation-Vendor: kakuicchigo
 

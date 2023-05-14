@@ -1,16 +1,16 @@
-Args: "--clean", "C:\Users\Goh Weisheng\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.12.2\joined-1.12.2.jar", "--output", "C:\Users\Goh Weisheng\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.12.2-14.23.5.2859\forge-1.12.2-14.23.5.2859-binpatched.jar", "--apply", "C:\Users\Goh Weisheng\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.12.2-14.23.5.2859\forge-1.12.2-14.23.5.2859-binpatches.lzma"
-Classpath: C:\Users\Goh Weisheng\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\binarypatcher\1.1.1\binarypatcher-1.1.1-fatjar.jar
-WorkDir: D:\forge-1.12.2-14.23.5.2859-mdk\build\_applyBinpatches_2
+Args: "--clean", "C:\Users\TBNRd\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.12.2\joined-1.12.2.jar", "--output", "C:\Users\TBNRd\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.12.2-14.23.5.2859\forge-1.12.2-14.23.5.2859-binpatched.jar", "--apply", "C:\Users\TBNRd\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.12.2-14.23.5.2859\forge-1.12.2-14.23.5.2859-binpatches.lzma"
+Classpath: C:\Users\TBNRd\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\binarypatcher\1.1.1\binarypatcher-1.1.1-fatjar.jar
+WorkDir: D:\LFlasher\build\_applyBinpatches_2
 Main: net.minecraftforge.binarypatcher.ConsoleTool
 ====================================
 Applying: 
-  Clean:     C:\Users\Goh Weisheng\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.12.2\joined-1.12.2.jar
-  Output:    C:\Users\Goh Weisheng\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.12.2-14.23.5.2859\forge-1.12.2-14.23.5.2859-binpatched.jar
+  Clean:     C:\Users\TBNRd\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.12.2\joined-1.12.2.jar
+  Output:    C:\Users\TBNRd\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.12.2-14.23.5.2859\forge-1.12.2-14.23.5.2859-binpatched.jar
   KeepData:  false
   Unpatched: false
   Pack200:   false
   Legacy:    false
-Loading patches file: C:\Users\Goh Weisheng\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.12.2-14.23.5.2859\forge-1.12.2-14.23.5.2859-binpatches.lzma
+Loading patches file: C:\Users\TBNRd\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.12.2-14.23.5.2859\forge-1.12.2-14.23.5.2859-binpatches.lzma
   Reading patch net.minecraft.advancements.AdvancementManager$1.binpatch
     Checksum: 8012452b Exists: true
   Reading patch net.minecraft.advancements.AdvancementManager.binpatch
@@ -2329,7 +2329,7 @@ Loading patches file: C:\Users\Goh Weisheng\.gradle\caches\forge_gradle\minecraf
     Checksum: d432dbfe Exists: true
   Reading patch net.minecraft.world.storage.loot.functions.LootingEnchantBonus.binpatch
     Checksum: e40fb0aa Exists: true
-Processing: C:\Users\Goh Weisheng\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.12.2\joined-1.12.2.jar
+Processing: C:\Users\TBNRd\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.12.2\joined-1.12.2.jar
   Patching net/minecraft/client/renderer/entity/RenderVillager(cbg) 1/1
   Patching net/minecraft/realms/RealmsConnect 1/1
   Patching net/minecraft/entity/monster/EntityZombie$1(adt$1) 1/1

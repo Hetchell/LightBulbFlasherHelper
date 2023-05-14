@@ -1,11 +1,11 @@
-Args: "--input", "C:\Users\Goh Weisheng\.gradle\caches\forge_gradle\minecraft_user_repo\mcp\1.12.2-20200226.224830\joined\patch\output.jar", "--output", "C:\Users\Goh Weisheng\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.12.2-14.23.5.2859\forge-1.12.2-14.23.5.2859-decomp.jar"
-Classpath: C:\Users\Goh Weisheng\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mcpcleanup\2.3.2\mcpcleanup-2.3.2-fatjar.jar
-WorkDir: D:\forge-1.12.2-14.23.5.2859-mdk\build\_postProcess_8
+Args: "--input", "C:\Users\TBNRd\.gradle\caches\forge_gradle\minecraft_user_repo\mcp\1.12.2-20200226.224830\joined\patch\output.jar", "--output", "C:\Users\TBNRd\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.12.2-14.23.5.2859\forge-1.12.2-14.23.5.2859-decomp.jar"
+Classpath: C:\Users\TBNRd\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mcpcleanup\2.3.2\mcpcleanup-2.3.2-fatjar.jar
+WorkDir: D:\LFlasher\build\_postProcess_8
 Main: net.minecraftforge.mcpcleanup.ConsoleTool
 ====================================
 MCPCleanup: 
-  Input:     C:\Users\Goh Weisheng\.gradle\caches\forge_gradle\minecraft_user_repo\mcp\1.12.2-20200226.224830\joined\patch\output.jar
-  Output:    C:\Users\Goh Weisheng\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.12.2-14.23.5.2859\forge-1.12.2-14.23.5.2859-decomp.jar
+  Input:     C:\Users\TBNRd\.gradle\caches\forge_gradle\minecraft_user_repo\mcp\1.12.2-20200226.224830\joined\patch\output.jar
+  Output:    C:\Users\TBNRd\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.12.2-14.23.5.2859\forge-1.12.2-14.23.5.2859-decomp.jar
   FilterFML: false
 Processing file: mcp/MethodsReturnNonnullByDefault.java
   processing comments
